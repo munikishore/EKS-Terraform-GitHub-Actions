@@ -15,7 +15,7 @@ public-rt-name        = "public-route-table"
 private-rt-name       = "private-route-table"
 eip-name              = "elasticip-ngw"
 ngw-name              = "ngw"
-eks-sg                = "eks-sg"
+eks-sg                = "eks-practice"
 
 # EKS
 is-eks-cluster-enabled     = true
