@@ -9,9 +9,7 @@ terraform {
   backend "s3" {
     bucket         = "munikishore-eks-pratice-11082024"
     region         = "us-east-1"
-    key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
-    encrypt        = true
+    key            = "eks/terraform.tfstate"    
   }
 }
 
